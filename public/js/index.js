@@ -1,4 +1,4 @@
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
 tl.to(".intro-container", 1, { transform: "translateX(-100%)", delay: 1 }),
   tl.fromTo(
